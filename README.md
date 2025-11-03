@@ -72,3 +72,7 @@ Here’s how it’s integrated:
 **In summary**, AlertX showcases how agentic AI, poweredby IBM watsonx, can autonomously understand, reason, and act transformingemergency response from reactive to proactive intelligence.
 
 <img width="940" height="582" alt="image" src="https://github.com/user-attachments/assets/e0d30718-4043-45cf-9704-931024bbe36d" />
+
+
+Youtube video link:
+https://www.youtube.com/watch?v=iU6NxPpVRPw
