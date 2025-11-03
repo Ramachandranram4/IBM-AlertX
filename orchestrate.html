@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <script>
+      window.wxOConfiguration = {
+        orchestrationID:
+          "c9e1fea8e78643c9a8fbca5b43c16d12_2fde3fb7-bf7e-40a0-9f2d-7900fa0a719a",
+        hostURL: "https://eu-gb.watson-orchestrate.cloud.ibm.com",
+        rootElementID: "root",
+        deploymentPlatform: "ibmcloud",
+        crn: "crn:v1:bluemix:public:watsonx-orchestrate:eu-gb:a/c9e1fea8e78643c9a8fbca5b43c16d12:2fde3fb7-bf7e-40a0-9f2d-7900fa0a719a::",
+        chatOptions: {
+          agentId: "b7716839-d158-40ef-8dec-8e3f1e890593",
+          agentEnvironmentId: "08e9a64b-2932-4511-9811-4dae18161bbb",
+        },
+      };
+      setTimeout(function () {
+        const script = document.createElement("script");
+        script.src = `${window.wxOConfiguration.hostURL}/wxochat/wxoLoader.js?embed=true`;
+        script.addEventListener("load", function () {
+          wxoLoader.init();
+        });
+        document.head.appendChild(script);
+      }, 0);
+    </script>
+  </head>
+  <body></body>
+</html>
